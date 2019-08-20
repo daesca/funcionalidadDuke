@@ -134,6 +134,8 @@
 .container-all-document{
     overflow: hidden;
     position: relative;
+    max-height: 350px;
+    overflow-y: scroll;
 }
 
 .container-content-items{
