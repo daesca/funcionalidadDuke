@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container title-section">
+            <div class="col-10 d-flex align-flex-vertical-end">
+                <button class="" id="active-menu" onclick="showOrHiddeMenu()">Contenido</button>
+            </div>
+            <div class="col-70 d-flex align-flex-vertical-center align-flex-horizontal-center">
+                <h1>Older Donors With Hypertension at Risk for Kidney Failure</h1>
+            </div>
+            <div class="col-20">
+                <div class="image-user">
+                    <div class="image">
+                        <img src="imagen.jpg" alt="Imagen de usuario">
+                    </div>
+                    <div class="subtext">
+                        <small>Cargo</small>
+                        <small>Cargo</small>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div class="container">
+        <div class="col-10">
+            <div id="menu-dynamic">
+                <h4 class="p-top-2em p-bottom-2em">Menu</h4>
+                <ul>
+                    <li><a href="javascript:;" data-content-item="content-item-1" onclick="showOrHiddeElement(this)">Item 1</a></li>
+                    <li><a href="javascript:;" data-content-item="content-item-2" onclick="showOrHiddeElement(this)">Item 2</a></li>
+                    <li><a href="javascript:;" data-content-item="content-item-3" onclick="showOrHiddeElement(this)">item 3</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-80">
+            <div class="container-content-items p-top-2em">
+                <div id="content-item-1" class="content-item">
+                    <h2 class="title-content">Item 1</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, nesciunt possimus. Ullam maiores molestias ex? Beatae enim obcaecati, tenetur autem suscipit ab, quod sit laboriosam commodi soluta dolorum quibusdam. Culpa!
+                    </p>
+                </div>
+                <div id="content-item-2" class="content-item">
+                    <h2 class="title-content">Item 2</h2>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt rem sint nemo accusantium. Necessitatibus magni, modi id, repellendus similique cum error velit asperiores nesciunt assumenda quo amet, ipsa dolor vero.
+                    </p>
+                </div>
+                <div id="content-item-3" class="content-item">
+                    <h2 class="title-content">Item 3</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius in similique dolor laborum quisquam ipsum nesciunt temporibus cumque molestiae doloribus architecto cupiditate magnam, vel incidunt maiores explicabo qui quidem minima?
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
