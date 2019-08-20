@@ -12,15 +12,11 @@ function showOrHiddeMenu(){
 function showOrHiddeElement(elementClicked){
     
     var element = elementClicked.getAttribute("data-content-item");
-    var items = document.getElementsByClassName("content-item");
+    var item = document.getElementById(element);
 
-    console.log(items);
-    for(var i = 0; i < items.length; i++){
-        
-        items[i].classList.remove("show");
-    }
-    console.log(element);
-    document.getElementById(element).classList.add("show");
+    console.log(item);
+    var coordinates = item.offsetTop;
+    console.log(coordinates);
 
-    
+    document.querySelector(".container-content-items").scrollTo(0, coordinates);
 }
